@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #51483edf;
+  background-color: #696763df;
   color: #fff;
   padding: 20px;
 }
@@ -63,7 +63,7 @@ form textarea {
 form button {
   border: 2px solid black;
   padding: 1rem;
-  background-color: #51483edf;
+  background-color: #696763df;
 
   text-transform: uppercase;
 }
@@ -75,7 +75,7 @@ button:hover {
 .site-footer {
   padding: 2rem;
   text-align: center;
-  border-top: 2px solid #929090;
+  border-top: 2px solid #74726edf;
   margin-top: 2rem;
 }
 
