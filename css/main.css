@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  background-color: #696763df;
+  background-color: #4d63bbdf;
   color: #fff;
   padding: 20px;
 }
@@ -29,11 +29,20 @@ h1 {
   gap: 15.5px;
 }
 
-main-nav li a {
+.main-nav li a {
+  color: white;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 4px;
   display: inline-block;
+  background-color: #4543a1;
+  border: 1px solid white;
+}
+
+.main-nav li a:hover {
+  background-color: white;
+  color: #333;
+  text-decoration: none;
 }
 
 .banner {
@@ -63,7 +72,7 @@ form textarea {
 form button {
   border: 2px solid black;
   padding: 1rem;
-  background-color: #696763df;
+  background-color: #4d63bbdf;
 
   text-transform: uppercase;
 }
